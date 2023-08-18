@@ -17,12 +17,12 @@
 
 		<div class="form-box login">
 
-			<h2 class="animation" style="--i:0; --j:21;">Login</h2>
+			<h2 class="animation" style="--i:0; --j:21;margin-right: 12%;color: skyblue;padding: auto;margin-top:55px ;">Login</h2>
 			<form action="login.php" method="post">
-				<?php if (isset($_GET['error'])) { ?>
+			<?php if (isset($_GET['error'])) { ?>
             		<p class="error"><?php echo $_GET['error']; ?></p>
-          		<?php } ?>
-				<div class="input-box animation" style="--i:1; --j:22;">
+          	        <?php } ?>
+				<div class="input-box animation" style="--i:2; --j:20;">
 					<input type="text" name="uname"required>
 					<label>Username</label>
 					<i class='bx bxs-user'></i>
@@ -41,12 +41,12 @@
 			</form>
 		</div>
 		<div class="info-text login">
-			<h2 class="animation" style="--i:0; --j:20">Umbrella!</h2>
-			<p class="animation" style="--i:1; --j:21">Our bussiness is life itself.</p>
+			<h2 class="animation" style="--i:0; --j:20;font-style: italic;scroll-padding-right:  10px;">Flower.</h2>
+			<p class="animation" style="--i:1; --j:21;">Fresh flowers, love forever.</p>
 		</div>
 
 		<div class="form-box register">
-			<h2 class="animation" style="--i:17; --j:0">Sign Up</h2>
+			<h2 class="animation" style="--i:17; --j:2.5;margin-right: 12%;color: skyblue;padding: auto;">Sign Up</h2>
 			<form action="#">
 				<div class="input-box animation" style="--i:18; --j:1">
 					<input type="text" required>
@@ -70,8 +70,8 @@
 			</form>
 		</div>
 		<div class="info-text register">
-			<h2 class="animation" style="--i:17; --j:0">Umbrella!</h2>
-			<p class="animation" style="--i:18; --j:1">Our bussiness is life itself.</p>
+			<h2 class="animation" style="--i:17; --j:0;font-style: italic;">Flower.</h2>
+			<p class="animation" style="--i:18; --j:1;padding-inline-end:25%;">Fresh flowers, love forever.</p>
 		</div>
 	</div>
 
